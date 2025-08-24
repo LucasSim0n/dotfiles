@@ -1,0 +1,38 @@
+theme = CyberpunkScarletProtocol
+# theme = RetroLegends
+# theme = HaX0R_GR33N
+# theme = Tomorrow Night Burns
+# theme = Kanagawa Dragon
+
+keybind = ctrl+space=toggle_tab_overview
+
+background-opacity = 0.85
+background-blur = true
+font-family = JetBrainsMono Nerd Font
+font-size = 13
+adjust-cursor-thickness = 50%
+
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+j=goto_split:down
+keybind = ctrl+k=goto_split:up
+keybind = ctrl+l=goto_split:right
+
+keybind = ctrl+shift+h=previous_tab
+keybind = ctrl+shift+l=next_tab
+
+keybind = ctrl+enter=new_split:auto
+keybind = ctrl+shift+enter=new_tab
+
+keybind = super+ctrl+up=resize_split:up,10
+keybind = super+ctrl+left=resize_split:left,10
+keybind = super+ctrl+down=resize_split:down,10
+keybind = super+ctrl+right=resize_split:right,10
+
+keybind = super+ctrl+,=reload_config
+
+adw-toolbar-style = raised-border
+gtk-wide-tabs = false
+gtk-tabs-location = bottom
+
+mouse-hide-while-typing = true
+focus-follows-mouse = true
